@@ -10,7 +10,7 @@
 - id: perltidy-docker
   name: perltidy
   description: Run the perltidy source code formatter on Perl source files
-  entry: ghcr.io/scop/perltidy:20260007 /usr/src/app/bin/perltidy --nostandard-output --backup-and-modify-in-place
+  entry: ghcr.io/scop/perltidy:20260008 perltidy --nostandard-output --backup-and-modify-in-place
   args: [--standard-error-output, --backup-file-extension=/]
   language: docker_image
   types: [perl]
